@@ -11,7 +11,7 @@ exit_msg:    .asciiz "."
 
 main:
     # Prompt for n
-    li $v0, 4                # Syscall for printing string
+    li $v0, 4                # Syscall code for printing string
     la $a0, prompt_n         # Load prompt message address
     syscall                  # Print message           
 
