@@ -1,0 +1,1 @@
+This is the practical assignment for computer architecture.
